@@ -89,6 +89,19 @@ footer {
   padding-top: 9.6rem;
 }
 
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
+ 
+  background: linear-gradient(
+    to top,
+    rgba(217, 221, 220, 0.7),
+    rgba(217, 221, 220)
+  );
+
+}
+
+
 // QUERIES
 
 @media (max-width: 82em) {

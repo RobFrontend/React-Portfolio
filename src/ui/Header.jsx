@@ -27,10 +27,11 @@ const NavMobile = styled.nav`
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 95vh;
   gap: 3.2rem;
   padding: 1.8rem;
   z-index: 5;
+
   background-color: rgba(242, 242, 241, 0.9);
 `;
 
@@ -59,7 +60,7 @@ const Logo = styled.a`
   font-weight: 500;
   letter-spacing: -3px;
   opacity: 0.9;
-  transition: all 0.3s;
+
   text-decoration: none;
   &:hover {
     opacity: 1;
@@ -88,29 +89,47 @@ function Header() {
       ) : (
         <>
           {!navOpen ? (
-            <StyledHeader>
-              <Fade triggerOnce direction="left">
-                <Logo href="#">Home</Logo>
-              </Fade>
-              <StyledNav>
-                <Menu onClick={() => setNavOpen(!navOpen)}>
-                  {navOpen ? (
-                    <GrClose style={{ fontSize: "2.4rem" }} />
-                  ) : (
-                    <GrMenu style={{ fontSize: "2.4rem" }} />
-                  )}
-                </Menu>
-              </StyledNav>
-            </StyledHeader>
+            <>
+              <StyledHeader>
+                <Fade triggerOnce direction="left">
+                  <Logo href="#">Home</Logo>
+                </Fade>
+                <StyledNav>
+                  <Menu onClick={() => setNavOpen(!navOpen)}>
+                    {navOpen ? (
+                      <GrClose style={{ fontSize: "2.4rem" }} />
+                    ) : (
+                      <GrMenu style={{ fontSize: "2.4rem" }} />
+                    )}
+                  </Menu>
+                </StyledNav>
+              </StyledHeader>
+            </>
           ) : (
-            <Fade direction="down">
-              <NavMobile onClick={() => setNavOpen(!navOpen)}>
-                <NavA href="#about">About me</NavA>
-                <NavA href="#customer">Customer experience</NavA>
-                <NavA href="#projects">More projects</NavA>
-                <NavA href="#footer">Contact</NavA>
-              </NavMobile>
-            </Fade>
+            <>
+              <StyledHeader>
+                <Fade triggerOnce direction="left">
+                  <Logo href="#">Home</Logo>
+                </Fade>
+                <StyledNav>
+                  <Menu onClick={() => setNavOpen(!navOpen)}>
+                    {navOpen ? (
+                      <GrClose style={{ fontSize: "2.4rem" }} />
+                    ) : (
+                      <GrMenu style={{ fontSize: "2.4rem" }} />
+                    )}
+                  </Menu>
+                </StyledNav>
+              </StyledHeader>
+              <Fade direction="down">
+                <NavMobile onClick={() => setNavOpen(!navOpen)}>
+                  <NavA href="#about">About me</NavA>
+                  <NavA href="#customer">Customer experience</NavA>
+                  <NavA href="#projects">More projects</NavA>
+                  <NavA href="#footer">Contact</NavA>
+                </NavMobile>
+              </Fade>
+            </>
           )}
         </>
       )}
