@@ -26,6 +26,9 @@ const StyledCustomer = styled.section`
   background-color: #161616;
   margin-bottom: 0rem;
   padding-bottom: 9.6rem;
+  padding-top: 3.2rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 `;
 
 const CarouselBox = styled.div`

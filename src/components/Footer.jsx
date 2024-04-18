@@ -2,6 +2,11 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+const StyledFooter = styled.section`
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+`;
+
 const KontaktBoxes = styled.div`
   padding: 6.4rem 0;
   display: grid;
@@ -86,7 +91,7 @@ const IMG = styled.img`
 function Footer() {
   return (
     <>
-      <section id="footer">
+      <StyledFooter id="footer">
         <Fade triggerOnce direction="up">
           <div className="container">
             <h2 className="heading-secondary">Contact and links</h2>
@@ -135,7 +140,7 @@ function Footer() {
             </KontaktBoxes>
           </div>
         </Fade>
-      </section>
+      </StyledFooter>
       <footer>&copy;{new Date().getFullYear()} robfrontend</footer>
     </>
   );
