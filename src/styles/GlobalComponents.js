@@ -101,6 +101,10 @@ footer {
 
 }
 
+.opacity{
+  opacity: 0.6;
+}
+
 
 // QUERIES
 

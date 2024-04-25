@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Header from "../ui/Header";
 import Headroom from "react-headroom";
 import { Fade } from "react-awesome-reveal";
+import { useEffect, useState } from "react";
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -59,6 +60,7 @@ const HeroHeading = styled.h1`
   letter-spacing: -5px;
   text-align: center;
   color: #6d6f6e;
+  transition: all 1.5s;
 `;
 
 const HeroTextGrid = styled.div`
@@ -104,6 +106,14 @@ const HeroP = styled.p`
 `;
 
 function Hero() {
+  const [opacity, setOpacity] = useState(false);
+
+  useEffect(() => {
+    setInterval(() => {
+      setOpacity(!opacity);
+    }, 3000);
+  }, [opacity]);
+
   return (
     <HeroSection>
       <Headroom>
@@ -113,9 +123,15 @@ function Hero() {
         <StyledHero>
           <HeroTextGrid>
             <div>
-              <HeroHeading className="heading-primary">
-                Robert Grabowski
-              </HeroHeading>
+              {opacity === false ? (
+                <HeroHeading className="heading-primary">
+                  Robert Grabowski
+                </HeroHeading>
+              ) : (
+                <HeroHeading className="heading-primary opacity">
+                  Robert Grabowski
+                </HeroHeading>
+              )}
               <HeroHeading className="heading-secondary">Portfolio</HeroHeading>
             </div>
             <HeroTextBoxes>
