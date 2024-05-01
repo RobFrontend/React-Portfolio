@@ -61,12 +61,12 @@ function About() {
           </p>
           <h3 className="heading-tertiary section-heading-tertiary">Now</h3>
           <p className="section-p">
-            I find myself in the intermediate/advanced phase of delving into
-            React (specifics about 'RobShop' are outlined in the projects
-            section), and I am actively exploring various development
-            opportunities. SCSS is the next skill on my learning agenda. As I
-            aspire to evolve into a full-stack developer (fullstack app
-            'BookBlog' is outlined in the project section as well), my
+            I find myself in the advanced phase of delving into React (specifics
+            about 'RobShop' are outlined in the projects section), and I am
+            actively exploring various development opportunities. SCSS is the
+            next skill on my learning agenda. As I aspire to evolve into a
+            full-stack developer (fullstack app 'BookBlog' and website with blog
+            for my client are outlined in the project section as well), my
             unwavering motivation propels me to consistently elevate my skills
             and set ambitious standards.
           </p>
