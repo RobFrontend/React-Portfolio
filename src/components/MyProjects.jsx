@@ -106,6 +106,46 @@ function MyProjects() {
             <div>
               <CarouselBox>
                 <h3 className="heading-tertiary section-heading-tertiary">
+                  Robify Fullstack MusicApp
+                </h3>
+                <ProjectBox>
+                  <Link
+                    to="https://robify-robfrontend.netlify.app/"
+                    target="_blank"
+                  >
+                    <IMG src="robify.webp" alt="Photo of website content" />
+                  </Link>
+                  <ProjectInfo>
+                    <p className="section-p">React Query</p>
+                    <p className="section-p">useState, useEffect, useReducer</p>
+                    <p className="section-p">React Context</p>
+                    <p className="section-p">Own API</p>
+                    <p className="section-p">Fullstack App</p>
+                    <p className="section-p">3rd party libraries</p>
+                    <p className="section-p">
+                      Feel free to explore the page on{" "}
+                      <Link
+                        className="project-github-link"
+                        to="https://github.com/RobFrontend/robify"
+                        target="_blank"
+                      >
+                        GitHub
+                      </Link>{" "}
+                      for Link closer look.
+                    </p>
+                  </ProjectInfo>
+                  <StyledLink
+                    to="https://robify-robfrontend.netlify.app/"
+                    target="_blank"
+                  >
+                    Netlify
+                  </StyledLink>
+                </ProjectBox>
+              </CarouselBox>
+            </div>
+            <div>
+              <CarouselBox>
+                <h3 className="heading-tertiary section-heading-tertiary">
                   RobShop
                 </h3>
                 <ProjectBox>
@@ -222,7 +262,7 @@ function MyProjects() {
                 </ProjectBox>
               </CarouselBox>
             </div>
-            <div>
+            {/* <div>
               <CarouselBox>
                 <h3 className="heading-tertiary section-heading-tertiary">
                   City- LA California
@@ -260,7 +300,7 @@ function MyProjects() {
                   </StyledLink>
                 </ProjectBox>
               </CarouselBox>
-            </div>
+            </div> */}
             <div>
               <CarouselBox>
                 <h3 className="heading-tertiary section-heading-tertiary">
