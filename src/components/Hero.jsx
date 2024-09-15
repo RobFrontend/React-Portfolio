@@ -42,7 +42,7 @@ const IMGTran = styled.img`
   bottom: -5px;
   transform: translateX(-50%);
   filter: drop-shadow(5px 5px 30px #d9dddc);
-  max-height: 60vh;
+  max-height: 55vh;
   transition: all 0.5s;
   opacity: 0.9;
   &:hover {
@@ -50,6 +50,10 @@ const IMGTran = styled.img`
     opacity: 1;
   }
 
+  @media (max-width: 80em) {
+    max-height: 50vh;
+    width: auto;
+  }
   @media (max-width: 27em) {
     max-height: 50vh;
     width: auto;

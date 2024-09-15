@@ -11,64 +11,51 @@ function About() {
           <h2 className="heading-secondary">About me</h2>
           <h3 className="heading-tertiary section-heading-tertiary">Begins</h3>
           <p className="section-p">
-            My journey into frontend development began in the first quarter of
-            2023. My initial encounter with programming traces back to high
-            school, where I pursued an IT technician profile less than a decade
-            ago. It was during this time that I delved into the world of
-            Photoshop, initially as an amateur enthusiast. My inclination
-            towards creation has been a constant in my life. From childhood, I
-            found joy in sketching, a passion that evolved into exploring music
-            during my teenage years. This innate drive to create has seamlessly
-            transitioned into my pursuit of frontend development.
+            My journey into frontend development began in early 2023, though my
+            interest in technology goes back to high school when I studied as an
+            IT technician. Back then, I dabbled in Photoshop as an amateur,
+            driven by a lifelong passion for creating—whether it was drawing as
+            a child or exploring music during my teenage years. This creative
+            spark naturally evolved into my interest in frontend development.
           </p>
           <h3 className="heading-tertiary section-heading-tertiary">
             My Educational Journey
           </h3>
           <p className="section-p">
-            During the initial months, I focused on mastering HTML and CSS. This
-            effort led to the creation of several personal projects, such as the
-            basketball player's page and the mountain-themed page. Subsequently,
-            I centered my attention on JavaScript, while continuously advancing
-            my proficiency in HTML and CSS to attain the highest level of
-            mastery. The primary objective was to craft a diverse range of
-            responsive websites featuring rich, clean, and easily readable
-            designs. This achievement came to fruition with my first client win.
-            Crafting the BalanceBook corporate accounting website was not only
-            exhilarating but also affirmed that I was progressing in the right
-            direction.
+            I started by mastering the basics HTML and CSS creating personal
+            projects like a basketball player profile and a mountain-themed
+            website. From there, I dove into JavaScript, working to create
+            responsive websites with clean, readable designs. My first client
+            project, a corporate accounting website for BalanceBook, was a major
+            milestone that confirmed I was on the right track.
           </p>
           <p className="section-p">
-            As I delved deeper into JavaScript, I gained increasing confidence
-            in integrating code with HTML and CSS. Among my initial projects was
-            the 'Design Changer', which served as a foundational piece for
-            creating the 'Bulls Game.' This interactive project compared heights
-            between individuals and basketball players, alongside a basketball
-            guessing game (yes, my love for basketball shines through). As my
-            proficiency grew, I expanded my repertoire by crafting diverse and
-            intricate methods and functions. The 'City-LA, California' project
-            stands as a testament to this growth, bolstering my confidence to
-            undertake a new challenge: developing a website for a '360 Photo
-            Booth Company'.
+            As I grew more confident with JavaScript, I worked on projects like
+            'Design Changer' and 'Bulls Game,' where I combined my love for
+            basketball with interactive features. My skills advanced, and I
+            began implementing more complex functions, as seen in the 'City-LA,
+            California' project. This progress motivated me to take on bigger
+            challenges, like developing a website for a '360 Photo Booth
+            Company.'
           </p>
           <p className="section-p">
-            I made a conscious decision to elevate my coding standards by
-            implementing Object-Oriented Programming, asynchronous techniques,
-            and modern functional programming methodologies to enhance the
-            quality and efficiency of my work. My journey culminated in the
-            'Create User' project, leveraging the browser's local storage to
-            store user data, a testament to my mastery of these advanced
-            techniques. I am continuously striving to enhance my code further.
+            To further elevate my work, I incorporated Object-Oriented
+            Programming (OOP), asynchronous techniques, and modern functional
+            programming. One project that stands out is the 'Create User'
+            feature, which uses local storage to save user data—showcasing my
+            growing expertise. Recently, I've also gained proficiency in React,
+            using it in projects like 'RobShop,' further strengthening my
+            frontend development skills.
           </p>
           <h3 className="heading-tertiary section-heading-tertiary">Now</h3>
           <p className="section-p">
-            I find myself in the advanced phase of delving into React (specifics
-            about 'RobShop' are outlined in the projects section), and I am
-            actively exploring various development opportunities. SCSS is the
-            next skill on my learning agenda. As I aspire to evolve into a
-            full-stack developer (fullstack app 'BookBlog' and website with blog
-            for my client are outlined in the project section as well), my
-            unwavering motivation propels me to consistently elevate my skills
-            and set ambitious standards.
+            I am now working with Next.js and Tailwind, which I utilized in
+            building a client blog website. These tools allow me to develop more
+            dynamic and scalable applications. SCSS is the next skill on my
+            learning path, as I continue to refine my styling techniques.
+            Aspiring to become a full-stack developer, I'm currently working on
+            projects like the full-stack app 'BookBlog' and constantly pushing
+            myself to new heights in both frontend and backend technologies.
           </p>
         </Fade>
       </div>

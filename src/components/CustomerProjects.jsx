@@ -97,14 +97,14 @@ function CustomerProjects() {
                 </Link>
                 <ProjectText>
                   <p className="section-p">
-                    A full-stack website featuring a blog functionality. The
-                    website comprises six subpages - five for regular users and
+                    A full-stack website featuring blog functionality. The
+                    website consists of six subpages—five for regular users and
                     one for the admin. The admin section includes an edit
-                    control panel enabling the site owner to add posts to the
-                    synchronized blog database. Developed using React and Vite,
-                    the application harnesses the power of React Query and
-                    Styled Components, alongside various tools from the NPM
-                    library, ensuring a dynamic and seamless user experience.
+                    control panel, allowing the site owner to add posts to the
+                    synchronized blog database. Developed using Next.js and
+                    Tailwind CSS, the application ensures a dynamic and seamless
+                    user experience, leveraging modern web technologies and
+                    tools from the NPM ecosystem.
                   </p>
                 </ProjectText>
                 <StyledLink
@@ -125,11 +125,13 @@ function CustomerProjects() {
                 </Link>
                 <ProjectText>
                   <p className="section-p">
-                    The website comprises six subpages and includes a privacy
-                    policy. It boasts a contemporary, responsive design centered
-                    around providing users with a serene and clear experience.
-                    The site incorporates anchored navigation, simplifying user
-                    navigation across its sub-pages.
+                    A six-page website featuring a privacy policy and a
+                    contemporary, responsive design. The site is built to
+                    provide users with a clear and calming experience. Anchored
+                    navigation is implemented to simplify movement across the
+                    subpages. Developed using HTML, CSS, and vanilla JavaScript,
+                    the website ensures smooth functionality and accessibility
+                    across devices. My first real website for my client.
                   </p>
                 </ProjectText>
                 <StyledLink to="https://www.balancebook.pl/" target="_blank">
@@ -147,12 +149,13 @@ function CustomerProjects() {
                 </Link>
                 <ProjectText>
                   <p className="section-p">
-                    The landing page adopts a technology and fun-oriented theme,
-                    specifically targeting late-night partygoers. Sporting a
-                    contemporary, cyber-inspired design, it strategically guides
-                    users to connect with the service provider. Its full
-                    responsiveness and mobile-friendly interface ensure
-                    effortless and delightful navigation.
+                    A technology and fun-oriented landing page designed
+                    specifically for late-night partygoers. It features a
+                    modern, cyber-inspired design aimed at guiding users to
+                    easily connect with the service provider. The page is fully
+                    responsive and mobile-friendly, ensuring smooth and engaging
+                    navigation across all devices. Developed using HTML, CSS,
+                    and vanilla JavaScript.
                   </p>
                 </ProjectText>
                 <StyledLink
@@ -179,9 +182,7 @@ function CustomerProjects() {
                     delivers a seamless user experience. Leveraging various
                     functionalities from npm libraries including sliders,
                     navigation, and more, it ensures easy access to essential
-                    store information and contact details. Whether you're
-                    exploring the latest products or seeking expert advice, our
-                    landing page provides a gateway to your fitness journey.
+                    store information and contact details.
                   </p>
                 </ProjectText>
                 <StyledLink
